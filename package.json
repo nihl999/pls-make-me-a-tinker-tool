@@ -1,0 +1,32 @@
+{
+    "name": "tinkerstoolsbuilder-backend",
+    "version": "1.0.0",
+    "description": "Backend for Tinkers Tools Builder website and (future) mobile app, calculate best tool for situation varying with your mods",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "build": "tsc"
+    },
+    "author": "Nihl999",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/cors": "latest",
+        "@types/express": "latest",
+        "@types/node": "latest",
+        "nodemon": "latest",
+        "prettier": "latest",
+        "tslint-config-airbnb": "latest",
+        "tslint-config-prettier": "latest",
+        "tslint": "latest",
+        "@types/dotenv": "latest",
+        "@types/mongoose": "latest"
+    },
+    "dependencies": {
+        "cors": "latest",
+        "express": "latest",
+        "ts-node": "latest",
+        "typescript": "latest",
+        "dotenv": "latest",
+        "mongoose": "latest"
+    }
+}
