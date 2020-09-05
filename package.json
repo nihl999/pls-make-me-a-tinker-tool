@@ -11,22 +11,23 @@
     "license": "MIT",
     "devDependencies": {
         "@types/cors": "latest",
+        "@types/dotenv": "latest",
         "@types/express": "latest",
         "@types/node": "latest",
+        "@types/pg": "^7.14.4",
         "nodemon": "latest",
         "prettier": "latest",
-        "tslint-config-airbnb": "latest",
-        "tslint-config-prettier": "latest",
         "tslint": "latest",
-        "@types/dotenv": "latest",
-        "@types/mongoose": "latest"
+        "tslint-config-airbnb": "latest",
+        "tslint-config-prettier": "latest"
     },
     "dependencies": {
         "cors": "latest",
-        "express": "latest",
-        "ts-node": "latest",
-        "typescript": "latest",
         "dotenv": "latest",
-        "mongoose": "latest"
+        "express": "latest",
+        "knex": "^0.21.5",
+        "pg": "^8.3.3",
+        "ts-node": "latest",
+        "typescript": "latest"
     }
 }
